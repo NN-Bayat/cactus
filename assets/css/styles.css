@@ -175,7 +175,7 @@ header {
     .nav__menu {
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background: hsl(228, 24%, 6%, .2);
         backdrop-filter: blur(1rem);
         -webkit-backdrop-filter: blur(1rem);
@@ -210,7 +210,9 @@ header {
 }
 
 /* Show menu */
-
+.nav__menu.show-menu{
+    right: 0;
+}
 
 /* Add blur header */
 
