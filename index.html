@@ -1,112 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-   <!--=============== FAVICON ===============-->
-   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-   <!--=============== REMIXICONS ===============-->
-   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-   <!--=============== CSS ===============-->
-   <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Responsive cactus website - Bedimcode</title>
+  </head>
 
-   <title>Responsive cactus website - Bedimcode</title>
-</head>
-
-<body>
-   <!--==================== HEADER ====================-->
-   <header class="header" id="header">
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
       <nav class="nav container">
-         <a href="#" class="nav__logo">
-            <i class="ri-cactus-line"></i> Cactus
-         </a>
+        <a href="#" class="nav__logo">
+          <i class="ri-cactus-line"></i> Cactus
+        </a>
 
-         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-               <li class="nav__item">
-                  <a href="#home" class="nav__links">Home</a>
-               </li>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__links">Home</a>
+            </li>
 
-               <li class="nav__item">
-                  <a href="#new" class="nav__links">News</a>
-               </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__links">News</a>
+            </li>
 
-               <li class="nav__item">
-                  <a href="#shop" class="nav__links">Shop</a>
-               </li>
+            <li class="nav__item">
+              <a href="#shop" class="nav__links">Shop</a>
+            </li>
 
-               <li class="nav__item">
-                  <a href="#care" class="nav__links">Care</a>
-               </li>
+            <li class="nav__item">
+              <a href="#care" class="nav__links">Care</a>
+            </li>
 
-               <li class="nav__item">
-                  <a href="#contact" class="nav__links">Contact</a>
-               </li>
-            </ul>
+            <li class="nav__item">
+              <a href="#contact" class="nav__links">Contact</a>
+            </li>
+          </ul>
 
-            <!-- Close button -->
-             <div class="nav__close" id="nav-close">
-               <i class="ri-close-line"></i>
-             </div>
-         </div>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-         <div class="nav__actions">
-            <i class="ri-user-line"></i>
-            <i class="ri-shopping-cart-line"></i>
+        <div class="nav__actions">
+          <i class="ri-user-line"></i>
+          <i class="ri-shopping-cart-line"></i>
 
-            <!-- Toggle button -->
-             <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line"></i>
-             </div>
-         </div>
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <!--==================== MAIN ====================-->
-   <main class="main">
+    <!--==================== MAIN ====================-->
+    <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/home-cactus.png" alt="image" class="home__img" />
 
+          <div class="home__data">
+            <h1 class="home__title">
+              ORNAMENTAL <br />
+              <span>PLANTS</span> FOR <br />
+              YOUR HOME <br />
+            </h1>
+
+            <p class="home__description">
+              We design ornamental plants for your home in-house for an original
+              style and quality you won't find anywhere else.
+            </p>
+
+            <div class="home__buttons">
+              <a href="#" class="button">
+                <span>
+                  <i class="ri-arrow-right-line"></i>
+                </span>
+                GO TO SHOP
+              </a>
+
+              <a href="#" class="button__link">MORE DETAILS</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--==================== NEWS ====================-->
       <section class="new section" id="new">
+        <div class="new__container container grid">
+          <div class="new__data">
+            <h2 class="section__title">
+              NEW PLANTS FOR <br />
+              YOUR HOME
+            </h2>
 
+            <p class="new__description">
+              Select new ornamental plants for home decoration and obtain an
+              atmosphere of harmony and freshness.
+            </p>
+          </div>
+
+          <div class="new__content grid">
+            <article class="new__card">
+              <img
+                src="assets/img/new-cactus-1.png"
+                alt="image"
+                class="new__img"
+              />
+              <h2 class="new__title">Gymnocalycium Cactus</h2>
+            </article>
+            <article class="new__card">
+              <img
+                src="assets/img/new-cactus-2.png"
+                alt="image"
+                class="new__img"
+              />
+              <h2 class="new__title">Lily Pad Succulent</h2>
+            </article>
+            <article class="new__card">
+              <img
+                src="assets/img/new-cactus-3.png"
+                alt="image"
+                class="new__img"
+              />
+              <h2 class="new__title">Rebutia Cactus</h2>
+            </article>
+          </div>
+        </div>
       </section>
 
       <!--==================== SHOP ====================-->
       <section class="shop section" id="shop">
+        <h2 class="section__title">THE BEST PLANTS</h2>
 
+        <div class="shop__container container grid">
+          <article class="shop__card">
+            <img
+              src="assets/img/shop-cactus-1.png"
+              alt="image"
+              class="shop__img"
+            />
+
+            <h3 class="shop__title">
+              Gymnocalycium <br />
+              Cactus
+            </h3>
+            <span class="shop__price">$15</span>
+
+            <button class="shop__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img
+              src="assets/img/shop-cactus-2.png"
+              alt="image"
+              class="shop__img"
+            />
+
+            <h3 class="shop__title">
+              Echeveria <br />
+              Succulent
+            </h3>
+            <span class="shop__price">$10</span>
+
+            <button class="shop__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img
+              src="assets/img/shop-cactus-3.png"
+              alt="image"
+              class="shop__img"
+            />
+
+            <h3 class="shop__title">
+              Ferocactus <br />
+              Cactus
+            </h3>
+            <span class="shop__price">$15</span>
+
+            <button class="shop__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img
+              src="assets/img/shop-cactus-4.png"
+              alt="image"
+              class="shop__img"
+            />
+
+            <h3 class="shop__title">
+              Key Lime Pie <br />
+              Succulent
+            </h3>
+            <span class="shop__price">$10</span>
+
+            <button class="shop__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img
+              src="assets/img/shop-cactus-5.png"
+              alt="image"
+              class="shop__img"
+            />
+
+            <h3 class="shop__title">
+              Melocactus <br />
+              Cactus
+            </h3>
+            <span class="shop__price">$15</span>
+
+            <button class="shop__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </article>
+        </div>
       </section>
 
       <!--==================== CARE ====================-->
-      <section class="care section" id="care">
-
-      </section>
+      <section class="care section" id="care"></section>
 
       <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact">
+      <section class="contact section" id="contact"></section>
+    </main>
 
-      </section>
-   </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
-   <!--==================== FOOTER ====================-->
-   <footer class="footer">
+    <!--========== SCROLL UP ==========-->
 
-   </footer>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
 
-   <!--========== SCROLL UP ==========-->
-
-
-   <!--=============== SCROLLREVEAL ===============-->
-   <script src=""></script>
-
-   <!--=============== MAIN JS ===============-->
-   <script src="assets/js/main.js"></script>
-</body>
-
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
